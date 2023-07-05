@@ -1,0 +1,161 @@
+:root {
+  --color-primary: #2c3333;
+  --color-secondary: #2e4f4f;
+  --color-tertiary: #0e8388;
+  --color-light: #cbe4de;
+  --color-black: #000;
+  --color-footer: #10a074;
+  --color-text: white;
+
+  --color-telegram: #229ed9;
+  --color-instagram: #e4405f;
+  --color-twitter: #1da1f2;
+  --color-whatsapp: #25d366;
+  --color-facebook: #3b5998;
+  --color-login-btn: #167bf3;
+
+  --font-samin: "Mj_Thameen Book";
+  --fw-normal: 400;
+  --fw-bold: 900;
+  --fs-sm: 10px;
+  --fs-base: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 40px;
+  --fs-5xl: 64px;
+
+  --screen-mobile: 500px;
+  --screen-tablet: 800px;
+  --screen-laptop: 1000px;
+  --screen-desktop: 1300px;
+}
+
+/* Config */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-samin);
+}
+
+body,
+html {
+  background-color: var(--color-bg);
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-none {
+  display: none;
+}
+
+body {
+  display: flex;
+}
+/* divide */
+
+.right {
+  width: 50%;
+}
+.left {
+  width: 50%;
+}
+
+/* righ side */
+.right:hover {
+  transform: scale(1.05);
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  transition: 0.7s;
+}
+
+.right img {
+  display: flex;
+  width: 900px;
+  height: 900px;
+  width: 100%;
+  direction: rtl;
+}
+
+/* left side */
+
+.left {
+  background-color: #2e90cf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  transition: 0.7s;
+}
+.left:hover {
+  transform: scale(1.05);
+}
+
+p {
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.inputBox input {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border-color: var(--color-text);
+  background-color: var(--color-light);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: var(--fs-2xl);
+}
+::placeholder {
+  color: black;
+  font-size: var(--fs-lg);
+  font-weight: bold;
+  text-align: center;
+}
+.register button {
+  width: 8rem;
+  height: 3rem;
+  color: black;
+  font-weight: bold;
+  font-size: var(--fs-2xl);
+  background-color: var(--color-whatsapp);
+  border-width: 0;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.register button:hover {
+  transform: scale(1.09);
+}
+.login a {
+  color: var(--color-light);
+}

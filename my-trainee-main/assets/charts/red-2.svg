@@ -1,0 +1,20 @@
+<svg width="136" height="70" xmlns="http://www.w3.org/2000/svg" class="highcharts-root" version="1.1">
+ <title>red-2</title>
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path id="svg_3" d="m0,184.22218l800,0l0,231.55563l-800,0l0,-231.55563z" opacity="undefined" stroke-width="4" fill="#58BD7D"/>
+  <path id="svg_5" d="m32.05069,13.22788" opacity="NaN" stroke-width="4" fill="#58BD7D"/>
+  <path stroke-width="2" fill-opacity="0.5" stroke="#ff6838" id="svg_6" d="m-0.91469,68.07509c0.98259,-7.28047 -9.75553,-41.67634 3.88959,-50.20705c13.64512,-8.53072 12.50897,4.29186 28.02475,-8.12711c15.51578,-12.41896 32.38754,38.36313 46.39279,19.39919c14.00525,-18.96394 16.04536,2.47759 34.67049,2.0449c18.62513,-0.43268 33.78792,10.35743 31.23039,36.30625" opacity="NaN" fill="url(#svg_13)"/>
+  <path id="svg_12" d="m133.64461,56.42803" opacity="NaN" fill-opacity="0.5" stroke-width="2" stroke="#619E73" fill="url(#svg_11)"/>
+ </g>
+ <defs>
+  <linearGradient spreadMethod="pad" y2="1" x2="0" y1="0.43828" x1="0" id="svg_11">
+   <stop offset="0" stop-color="#97edb5"/>
+   <stop offset="1" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="1" x2="0" y1="0.43828" x1="0" id="svg_13">
+   <stop stop-opacity="0.99609" offset="0" stop-color="#ff6838"/>
+   <stop offset="1" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+ </defs>
+</svg>
